@@ -1,0 +1,19 @@
+--DROP TABLE IF EXISTS `billing`;
+--CREATE TABLE `billing` (
+--  `id` int NOT NULL AUTO_INCREMENT,
+--  `dates` varchar(255) DEFAULT NULL,
+--  `clients` varchar(255) DEFAULT NULL,
+--  `project` varchar(255) DEFAULT NULL,
+--  `project_code` varchar(255) DEFAULT NULL,
+--  `hours` double DEFAULT NULL,
+--  `billable` varchar(5) DEFAULT NULL,
+--  `first_name` varchar(255) DEFAULT NULL,
+--  `last_name` varchar(255) DEFAULT NULL,
+--  `bill_rate` int DEFAULT NULL,
+--  PRIMARY KEY (`id`)
+--)
+
+-- CREATE TABLE `phones` (
+-- types` varchar(45) NOT NULL,
+-- quantity` int DEFAULT NULL, PRIMARY KEY (`type`)
+-- UNIQUE KEY `type_UNIQUE` (`type`);
